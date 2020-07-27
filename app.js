@@ -77,12 +77,12 @@ app.post('/makePayment', async function (req, res) {
             installments: 6
         },
         back_urls: {
-            success: "localhost:4000/success",
-            pending: "localhost:4000/pending",
-            failure: "localhost:4000/failure",
+            success: "https://mp-fa-test.netlify.app/success",
+            pending: "https://mp-fa-test.netlify.app/pending",
+            failure: "https://mp-fa-test.netlify.app/failure",
         },
         auto_return: "approved",
-        notification_url: "localhost:4000/webhook?source_news=webhooks"
+        notification_url: "https://mp-fa-test.netlify.app/webhook?source_news=webhooks"
         ,
     }
 
