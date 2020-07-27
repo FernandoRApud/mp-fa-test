@@ -77,12 +77,12 @@ app.post('/makePayment', async function (req, res) {
             installments: 6
         },
         back_urls: {
-            success: "https://mp-fa-test.netlify.app/success",
-            pending: "https://mp-fa-test.netlify.app/pending",
-            failure: "https://mp-fa-test.netlify.app/failure",
+            success: "https://fa-mp-commerce-nodejs.herokuapp.com/success",
+            pending: "https://fa-mp-commerce-nodejs.herokuapp.com/pending",
+            failure: "https://fa-mp-commerce-nodejs.herokuapp.com/failure",
         },
         auto_return: "approved",
-        notification_url: "https://mp-fa-test.netlify.app/webhook?source_news=webhooks"
+        notification_url: "https://fa-mp-commerce-nodejs.herokuapp.com/webhook?source_news=webhooks"
         ,
     }
 
